@@ -1,0 +1,116 @@
+*{
+	font-family: roboto;
+}
+
+body{
+	background-color: lightgray;
+}
+header {
+    top: 0;
+    left: 0;
+    position: fixed;
+    overflow: hidden;
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: #2A2C2D;
+    z-index:99;
+}
+.main{
+    background: #f0f0f0;
+    width: 40rem;
+    height: 23.8rem;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: inline;
+    border-radius: 0.5%;
+  /*  border: 0.5px solid gray;*/
+  box-shadow: 0 0 20 ;
+
+}
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.Logo-Nav-Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.navigate ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigate ul li {
+    margin 0;
+    display: inline-block;
+}
+
+.navigate ul li a {
+    display: block;
+    margin: 0.2rem ;
+    padding: 0.3rem 0.8rem;
+    border-radius: 2px;
+
+}
+
+.navigate ul li a:hover {
+    color: cornflowerblue;
+    transition: 0.1s;
+}
+
+#Tablapreguntas{
+	background-color: gray;
+	border-radius: 2%;
+    position: relative;
+    margin: 2%;
+    float:left;
+}
+.numcol{
+margin: 0.2rem;
+background-color: white;
+padding:1.3rem;
+border-radius: 4%;
+}
+
+.numcol:hover{
+  box-shadow: 0px 0px 7px yellow;
+  /*text-shadow: 0px 0px 5px yellow;*/
+}
+.wraper {
+    text-align: left;
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 15px;
+    box-sizing: border-box;
+
+}
+.points{
+    position: relative;
+	color:black;
+	width: 120px;
+	background: gray;
+    float:right;
+    right: 15%;
+    vertical-align: middle;
+    margin-top: 20%;
+	
+}
+.points p {
+	text-align: center;
+	background-color: white;
+	margin: 4px;
+	font-weight: bold;
+	border-radius: 3%;
+	padding:3%;
+	padding-right: 3%;
+}

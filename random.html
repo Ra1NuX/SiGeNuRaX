@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="resource/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<title></title>
+</head>
+<body>
+	  <header class="header">
+            <div class="wraper Logo-Nav-Container">
+                <nav class="navigate">
+                    <ul>
+                        <li><a href="Index.html">Inicio</a></li>
+                        <li><a href="">Random</a></li>
+                        <li><a style="cursor: pointer;"onclick="GetE(this)">Número</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+	<div class="main">
+		<div class="mainwraper">
+			<table id="Tablapreguntas">
+				<tr>
+					<th><div onclick="GetE(this)" class="numcol" id="1">1</div></th>
+					<th><div onclick="GetE(this)" class="numcol" id="2">2</div></th>
+					<th><div onclick="GetE(this)" class="numcol" id="3">3</div></th>
+					<th><div onclick="GetE(this)" class="numcol" id="4">4</div></th>
+					<th><div onclick="GetE(this)" class="numcol" id="5">5</div></th>
+				</tr>
+				<tr>
+					<th><div onclick="GetE(this)" class="numcol" id="6">6</div></th>
+					<th><div onclick="GetE(this)" class="numcol" id="7">7</div></th>
+					<th><div onclick="GetE(this)" class="numcol" id="8">8</div></th>
+					<th><div onclick="GetE(this)" class="numcol" id="9">9</div></th>
+					<th><div onclick="GetE(this)" class="numcol" id="10">10</div></th>
+				</tr>
+				<tr>
+					<th><div onclick="GetE(this)" class="numcol" id="11">11</div></th>
+					<th><div onclick="GetE(this)" class="numcol" id="12">12</div></th>
+					<th><div onclick="GetE(this)" class="numcol" id="13">13</div></th>
+					<th><div onclick="GetE(this)" class="numcol" id="14">14</div></th>
+					<th><div onclick="GetE(this)" class="numcol" id="15">15</div></th>
+				</tr>
+				<tr>
+					<th><div onclick="GetE(this)" class="numcol" id="16">16</div></th>
+					<th><div onclick="GetE(this)" class="numcol" id="17">17</div></th>
+					<th><div onclick="GetE(this)" class="numcol" id="18">18</div></th>
+					<th><div onclick="GetE(this)" class="numcol" id="19">19</div></th>
+					<th><div onclick="GetE(this)" class="numcol" id="20">20</div></th>
+				</tr>
+				<tr>
+					<th><div onclick="GetE(this)" class="numcol" id="21">21</div></th>
+					<th><div onclick="GetE(this)" class="numcol" id="22">22</div></th>
+					<th><div onclick="GetE(this)" class="numcol" id="23">23</div></th>
+					<th><div onclick="GetE(this)" class="numcol" id="24">24</div></th>
+					<th><div onclick="GetE(this)" class="numcol" id="25">25</div></th>
+				</tr>
+			</table>
+		</div>
+		<div>
+			<div class="points">
+				<div><a style="text-align: center; display: block; padding-top:2px;">Modo Random</a></div>
+				<p>Casillas restantes: <a id="pointsNum" style="color: cornflowerblue;">25</a></p>
+				<p>Probabilidad: <a id="ProbNum" style="color: cornflowerblue;">8%</a></p>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="assets/RandomScripts.js"></script>
+</html>
