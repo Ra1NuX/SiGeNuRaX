@@ -40,6 +40,6 @@ Para poder usar este Software Web es necesario descargar este repositorio de git
   #
   #
 
-  <span style="color:blue">*Created by Ra1NuX*   
+*Created by Ra1NuX*   
   > > Raimundo Martínez Nuñez.
-</span> 
+
