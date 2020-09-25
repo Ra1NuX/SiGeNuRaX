@@ -1,4 +1,4 @@
-	TotalNum = 25; 
+	TotalNum = 20; 
 
 function GetE(e){
 	//alert(e.innerHTML);
@@ -28,16 +28,12 @@ function GetE(e){
 	case "18":break;;
 	case "19":break;;
 	case "20":break;;
-	case "21":break;;
-	case "22":break;;
-	case "23":break;;
-	case "24":break;;
-	case "25":break;;
+
 	default:
-		Clicked = Math.floor((Math.random() * 25) + 1);
+		Clicked = Math.floor((Math.random() * TotalNum) + 1);
 		i=0;
 	while(((document.getElementById(Clicked).style.background == color_selec)||(document.getElementById(Clicked).style.background == color_correct))&&(i <500)){
-		Clicked = Math.floor((Math.random() * 25) + 1);
+		Clicked = Math.floor((Math.random() * TotalNum) + 1);
 		i++;
 	}
 	break;
