@@ -11,7 +11,7 @@ Para poder usar este Software Web es necesario descargar este repositorio de git
  ```bash
  git clone https://github.com/Ra1NuX/SiGeNuRaX.git
  -
- git checkout 1.1.20
+ git checkout v1.1.20
  ```
 #
 
